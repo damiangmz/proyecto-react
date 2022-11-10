@@ -7,8 +7,6 @@ ul {
   list-style: none;
   display: flex;
 }
-li {
-}
 .carrito {
   font-size: 1.5em;
   margin: 5px;

@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav class="navbar bg-light">
       
-      <div class="container-fluid justify-content-center">
+      <div class="container-fluid d-flex justify-content-between">
         <a class="navbar-brand">Hard Coder</a>
         <form class="d-flex " role="search">
           <input
@@ -13,14 +13,14 @@ function NavBar() {
             placeholder="Buscar"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success" type="submit">
+          <button class="btn btn-outline-primary" type="submit">
             Buscar
           </button>
         </form>
         <div><CartWidget /></div>
       </div>
       <div className="box_ul">
-        <ul>
+        <ul >
           <li>
             <a href="">Componentes</a>
           </li>
