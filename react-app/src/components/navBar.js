@@ -1,4 +1,5 @@
 
+import'./style/navbar.css'
 function NavBar(){
     return(
         <nav class="navbar bg-light">
@@ -9,12 +10,12 @@ function NavBar(){
       <button class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
   </div>
-  <div>
+  <div className='box_ul'>
     <ul>
-        <li>Componentes</li>
-        <li>Perifericos</li>
-        <li>Monitores</li>
-        <li>Consolas</li>
+        <li><a href="">Componentes</a></li>
+        <li><a href="">Perifericos</a></li>
+        <li><a href="">Monitores</a></li>
+        <li><a href="">Consolas</a></li>
     </ul>
   </div>
 </nav>
