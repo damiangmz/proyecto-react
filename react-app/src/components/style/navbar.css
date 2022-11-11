@@ -11,3 +11,7 @@ ul {
   font-size: 1.5em;
   margin: 5px;
 }
+.greeting {
+  color: white;
+  background-color: blue;
+}
